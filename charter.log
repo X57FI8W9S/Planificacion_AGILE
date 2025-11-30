@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.19)  30 NOV 2025 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.19)  30 NOV 2025 04:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,9 +875,6 @@ Package: titletoc 2023/10/27 v2.16 TOC entries
 )) (./charter.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-
-LaTeX Warning: Label `fig:diagBloques' multiply defined.
-
 )
 \openout1 = `charter.aux'.
 
@@ -1004,7 +1001,7 @@ File: ./Figuras/diagBloques.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/diagBloques.png  used on input line 124.
 (pdftex.def)             Requested size: 226.48395pt x 188.37712pt.
 
-Overfull \hbox (25.23833pt too wide) in paragraph at lines 146--158
+Overfull \hbox (15.65706pt too wide) in paragraph at lines 146--158
 [][] 
  []
 
@@ -1015,12 +1012,12 @@ Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 159.
 [5 <./Figuras/diagBloques.png>]
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 203.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 207.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
  [6]
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 248.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 254.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
  [7]
 Overfull \hbox (1.64624pt too wide) in paragraph at lines 294--295
@@ -1030,211 +1027,215 @@ ec-to-rias CoM/ZMP, energ^^S^^Pa/distancia.
 
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 295.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 315.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
 [8]
-File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
-<use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 327.
-(pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
- [9]
 Underfull \hbox (badness 2495) in paragraph at lines 355--355
 []|\OT1/cmr/m/n/10.95 Modelo 3D sen-so-res ac-tua-do-res v^^S^^Pncu-los
  []
 
-
-Underfull \hbox (badness 2409) in paragraph at lines 380--380
+File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
+<use ./Figuras/logoFIUBA.pdf>
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 363.
+(pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
+[9]
+File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
+<use ./Figuras/logoFIUBA.pdf>
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 363.
+(pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
+ [10]
+Underfull \hbox (badness 2409) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/10.95 Definir al-can-ce y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/10.95 Determinar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 y es-pe-ci-fi-car
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 com-po-nen-tes,
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 380--380
+Underfull \hbox (badness 2469) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 par^^Same-tros f^^S^^Psi-cos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/10.95 Modelo 3D
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 con sen-so-res,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 ac-tua-do-res
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 y v^^S^^Pncu-los
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 380--380
+Underfull \hbox (badness 4303) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 ce-na ba-se en el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/10.95 Implementar
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 380--380
+Underfull \hbox (badness 3635) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 par-tir de fuer-zas
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 380--380
+Underfull \hbox (badness 2671) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 to-rias de mar-cha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/10.95 Visualizar ZMP,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 pol^^S^^Pgono de
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 380--380
+Underfull \hbox (badness 4886) in paragraph at lines 381--381
 \OT1/cmr/m/n/10.95 so-por-te y cen-tro
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 404--404
+Underfull \hbox (badness 5756) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Integrar vi-sua-li-za-
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 404--404
+Underfull \hbox (badness 4752) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 ini-cial por imi-ta-
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 404--404
+Underfull \hbox (badness 1466) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 mu-la-dor y va-li-dar
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 404--404
+Underfull \hbox (badness 6876) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Entrenar ro-bus-tez
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Dise~nar y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 re-gis-trar m^^Setri-cas
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 404--404
+Underfull \hbox (badness 3354) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 (ca^^S^^Pdas, ve-lo-ci-dad,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Automatizar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 re-gis-tro y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 al-ma-ce-na-mien-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Desarrollar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 no-te-books pa-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 ge-ne-ra-ci^^Son de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Integrar dash-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 boards/notebooks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/10.95 en el flu-jo de
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+[]|\OT1/cmr/m/n/10.95 Redacci^^Son
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/10.95 Preparaci^^Son de la
  []
 
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 409.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 410.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
-[10]
+[11]
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 409.
-(pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
- [11]
-File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
-<use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 409.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 410.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
  [12]
-<./Figuras/gantt.png, id=187, 772.5663pt x 937.3419pt>
+<./Figuras/gantt.png, id=186, 772.5663pt x 937.3419pt>
 File: ./Figuras/gantt.png Graphic file (type png)
 <use ./Figuras/gantt.png>
-Package pdftex.def Info: ./Figuras/gantt.png  used on input line 417.
+Package pdftex.def Info: ./Figuras/gantt.png  used on input line 418.
 (pdftex.def)             Requested size: 452.9679pt x 549.56569pt.
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 423.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 424.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
  [13]
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 423.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 424.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
  [14 <./Figuras/gantt.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 467--468
@@ -1300,717 +1301,712 @@ File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 615.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
  [17]
-File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
-<use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 672.
-(pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
- [18]
-Overfull \vbox (13.60005pt too high) detected at line 693
+Overfull \vbox (13.60005pt too high) detected at line 685
  []
 
 
-Overfull \vbox (27.20006pt too high) detected at line 699
+Overfull \vbox (27.20006pt too high) detected at line 691
  []
 
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 707.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 699.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
-[19]
+[18]
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 707.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 699.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
- [20]
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/bx/n/10.95 ?`Qu^^Se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/bx/n/10.95 em-pe-zar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Bloques
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 de tra-ba-jo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 con-cen-tra-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 fi-gu-ra-ci^^Son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 b^^Sasi-ca del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Interrumpir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 el tra-ba-jo
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 757--757
+Underfull \hbox (badness 4229) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pa-ra pro-bar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 he-rra-mien-tas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 nue-vas que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 no son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Probar el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 mo-de-lo en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 es-ce-nas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 sim-ples
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 757--757
+Underfull \hbox (badness 2698) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pa-ra va-li-dar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 co-li-sio-nes y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 con-tac-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 an-tes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Registrar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 en un log
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 sen-ci-llo las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pro-ble-mas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 en-con-tra-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 en ca-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Empezar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ta-reas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 t^^Secni-cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 sin re-vi-sar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 an-tes el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 cri-te-rios de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 acep-ta-ci^^Son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Ejecutar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 prue-bas del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 c^^Salcu-lo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ZMP en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 patr^^Son de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 mar-cha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 b^^Sasi-co
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Ajustar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 par^^Same-tros
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 de for-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 im-pro-vi-sa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 con
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-sul-ta-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Comparar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 tra-yec-to-rias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ob-te-ni-das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 con el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 cri-te-rio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 te^^Sori-co de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Versionar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 scripts de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 prue-ba y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-po-si-to-rio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pa-ra po-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-pli-car ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Modificar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 c^^Sodi-go
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 di-rec-ta-men-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 en el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 si-mu-la-dor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 sin guar-dar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 una ver-si^^Son
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 757--757
+Underfull \hbox (badness 1824) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 co 6 En-tre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Monitorear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 m^^Setri-cas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-com-pen-sa,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ca^^S^^Pdas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 energ^^S^^Pa en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 co-rri-das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Lanzar ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pe-ri-men-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 gran-des sin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 prue-bas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pre-li-mi-na-res
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 757--757
+Underfull \hbox (badness 8038) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 en en-tor-nos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 fi-jas y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 con-fi-gu-ra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 cio-nes do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 cu-men-ta-das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pa-ra po-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-pro-du-cir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Planificar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 lo-tes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pe-que~nos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 de ex-pe-ri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 hip^^Sote-sis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 cla-ra so-bre
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 757--757
+Underfull \hbox (badness 1297) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 el cam-bio a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Cambiar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 mu-chos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 hi-per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 par^^Same-tros
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 mo-di-fic^^So ni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Sprint no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 t^^Secni-co 9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Escribir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 bre-ves
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 res^^Sume-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 al ce-rrar
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 757--757
+Underfull \hbox (badness 3281) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ca-da blo-que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 de tra-ba-jo
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 757--757
+Underfull \hbox (badness 1596) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 t^^Secni-co pa-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 fa-ci-li-tar la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Dejar la
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 757--757
+Underfull \hbox (badness 5490) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 es-cri-tu-ra de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 sec-cio-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 com-ple-tas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pa-ra los
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 757--757
+Underfull \hbox (badness 2197) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ^^Sulti-mos d^^S^^Pas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Revisar la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 gu^^S^^Pa de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 for-ma-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 an-tes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-dac-tar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Pedir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 feed-back
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pun-tual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 so-bre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 ob-je-ti-vos,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 re-sul-ta-dos,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 con-clu-sio-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 a una
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 per-so-na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 []|\OT1/cmr/m/n/10.95 Acumular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 co-rrec-cio-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 en no-tas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 suel-tas sin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 in-te-grar-las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 pe-ri^^Sodi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 men-te al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \OT1/cmr/m/n/10.95 do-cu-men-to
  []
 
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 772.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 764.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
-[21]
+[20]
 File: ./Figuras/logoFIUBA.pdf Graphic file (type pdf)
 <use ./Figuras/logoFIUBA.pdf>
-Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 772.
+Package pdftex.def Info: ./Figuras/logoFIUBA.pdf  used on input line 764.
 (pdftex.def)             Requested size: 99.58464pt x 33.19096pt.
- [22] 
+ [21] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./charter.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -2020,21 +2016,17 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `charter.out' has not changed.
 (rerunfilecheck)             Checksum: 26C1C810565248F6D1B3C6B19892D929;3292.
  ) 
 Here is how much of TeX's memory you used:
- 26913 strings out of 475485
- 508743 string characters out of 5775513
- 1955975 words of memory out of 5000000
- 48432 multiletter control sequences out of 15000+600000
+ 26911 strings out of 475485
+ 508718 string characters out of 5775513
+ 1946975 words of memory out of 5000000
+ 48431 multiletter control sequences out of 15000+600000
  565530 words of font info for 63 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 114i,17n,115p,743b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,17n,115p,743b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/rnyx/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
@@ -2042,10 +2034,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on charter.pdf (22 pages, 918043 bytes).
+Output written on charter.pdf (21 pages, 914249 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

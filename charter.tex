@@ -30,7 +30,7 @@
  
 \fechaINICIO{21 de octubre de 2025}		%Fecha de inicio de la cursada de GdP \fechaInicioName
 \fechaFINALPlan{9 de diciembre de 2025} 	%Fecha de final de cursada de GdP
-\fechaFINALTrabajo{15 de junio de 2026}	%Fecha de defensa pública del trabajo final
+\fechaFINALTrabajo{junio de 2026}	%Fecha de defensa pública del trabajo final
 
 
 \begin{document}
@@ -85,7 +85,7 @@ Buenos Aires, \fechaInicioName
 
 \vspace{2cm}
 
-Por medio de la presente se acuerda con el \authorname\hspace{1px} que su Trabajo Final de la \degreename\hspace{1px} se titulará ``\ttitle'' y consistirá en La simulación, de un robot caminante y el entrenamiento de las políticas de control de su marcha aplicando aprendizaje por refuerzo. El trabajo tendrá un presupuesto preliminar estimado de \textcolor{red}{600} horas y un costo estimado de \textcolor{red}{\$ XXX}, con fecha de inicio el \fechaInicioName\hspace{1px} y fecha de presentación pública el \textcolor{red}{\fechaFinalName}.
+Por medio de la presente se acuerda con el \authorname\hspace{1px} que su Trabajo Final de la \degreename\hspace{1px} se titulará ``\ttitle'' y consistirá en la simulación de un robot caminante y el entrenamiento de las políticas de control de su marcha aplicando aprendizaje por refuerzo. El trabajo tendrá un presupuesto preliminar estimado de \textcolor{red}{600} horas y un costo estimado de \textcolor{red}{\$ XXX}, con fecha de inicio el \fechaInicioName\hspace{1px} y fecha de presentación pública en \textcolor{red}{\fechaFinalName}.
 
 Se adjunta a esta acta la planificación inicial.
 
@@ -108,7 +108,7 @@ Se adjunta a esta acta la planificación inicial.
 
 
 
-El proyecto consiste en diseñar y entrenar en simulación, un sistema de desplazamiento para un robot caminante destinado a realizar tareas en obras de construcción. El objetivo técnico es obtener una política de control de la marcha capaz de andar de forma estable frente a perturbaciones, mientras que el objetivo de negocio es explorar tecnologías que, en una etapa posterior, permitan automatizar tareas físicamente exigentes y peligrosas de una empresa constructora.
+El proyecto consiste en diseñar y entrenar en simulación un sistema de desplazamiento para un robot caminante destinado a realizar tareas en obras de construcción. El objetivo técnico es obtener una política de control de la marcha capaz de andar de forma estable frente a perturbaciones, mientras que el objetivo de negocio es explorar tecnologías que, en una etapa posterior, permitan automatizar tareas físicamente exigentes y peligrosas de una empresa constructora.
 
 Como consecuencia de terrenos irregulares, cambios diarios en el entorno, obstáculos imprevistos, desniveles y riesgo de caídas, la automatización ha avanzado más lentamente en el sector de la construcción. Muchos procesos que requieren desplazamiento y manipulación en estos entornos son difíciles de automatizar con métodos tradicionales de control. Sin embargo, a mayor nivel de automatización de tareas repetitivas, mayor es el potencial de reducir costos para los clientes finales sin sacrificar calidad, además de disminuir la exposición de los operarios a condiciones peligrosas.
 
@@ -149,11 +149,11 @@ Como se observa en la figura \ref{fig:diagBloques}, no se utiliza ZMP como contr
 Rol           & Nombre y Apellido                                                               & Organización                   & Puesto                     \\ \hline
 Cliente       & \clientename                                                     & \empclientename & -                          \\ \hline
 Responsable   & \begin{tabular}[c]{@{}l@{}}Ing. Francisco Antonio\\ Cofré Villalón\end{tabular} & FIUBA                          & Alumno                     \\ \hline
-Colaboradores & -                                                                               & -                              & -                          \\ \hline
+
 Orientador    & \supname                                                         & \pertesupname   & Director del Trabajo Final \\ \hline
-Equipo        & \begin{tabular}[c]{@{}l@{}}miembro1\\ miembro2\end{tabular}                     & -                              & -                          \\ \hline
-Opositores    & -                                                                               & -                              & -                          \\ \hline
-Usuario final & -                                                                               & -                              & -                          \\ \hline
+
+
+
 \end{tabular}
 \end{table}
 
@@ -350,10 +350,11 @@ HU6 & Configurar y ejecutar el algoritmo de RL elegido. & 5 h & Media \\ \hline
 HU6 & Irregularidades, cambios de velocidad objetivo. & 6 h & Alta \\ \hline
 HU7 & Registrar evolución de métricas.  & 6 h & Alta \\ \hline
 HU7 & Automatizar registro y almacenamiento de métricas y logs. & 8 h & Alta \\ \hline
-HU8 & Notebooks que generen gráficos. & 5 h & Media \\ \hline
-HU8 & Tarea 2 HU2 & 6 h & Alta \\ \hline
+HU8 & Definir escenarios, perturbaciones, métricas y formato de registros y videos. & 5 h & Media \\ \hline
+HU8 & Implementar notebooks generen gráficos de estabilidad y rapidez, y que comparen ZMP e IL+RL. & 6 h & Alta \\ \hline
 \end{tabularx}
 \end{table}
+
 
 \vspace{1cm}
 
@@ -362,45 +363,45 @@ HU8 & Tarea 2 HU2 & 6 h & Alta \\ \hline
 \section{10. Planificación de Sprints}
 \begin{table}[htpb]
 \centering
-\caption{Formato sugerido}
+% \caption{Formato sugerido}
 \begin{tabularx}{\linewidth}{@{}|l|l|X|c|l|c|@{}}
 \hline
 \rowcolor[HTML]{C0C0C0}
 Sprint & HU o fase & Tarea & SP & Responsable & \% Completado \\ \hline
-Sprint 0 & Planificación & Definir alcance y cronograma & 10 h & Alumno & X\% \\ \hline
-Sprint 0 & Planificación & Reunión con el tutor/cliente & 5 h & Alumno & X\% \\ \hline
-Sprint 0 & Planificación & Ajuste de los entregables & 6 h & Alumno & X\% \\ \hline
-Sprint 1 & HU1 & Determinar y especificar componentes, parámetros físicos y sensores & 6 h / 3 SP & Alumno & 0\% \\ \hline
-Sprint 1 & HU1 & Modelo 3D con sensores, actuadores y vínculos (URDF/USD) & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 2 & HU2 & Configurar una escena base en el simulador (mundo, gravedad, suelo) & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 2 & HU2 & Cargar y validar el robot bípedo en el simulador & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 3 & HU3 & Implementar cálculo del ZMP a partir de fuerzas de contacto & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 3 & HU3 & Implementar el generador de trayectorias de marcha basadas en ZMP & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 4 & HU4 & Visualizar ZMP, polígono de soporte y centro de masa en tiempo real & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 0 & Planificación & Definir alcance y cronograma. & 10 h & Alumno & X\% \\ \hline
+Sprint 0 & Planificación & Reunión con el tutor/cliente. & 5 h & Alumno & X\% \\ \hline
+Sprint 0 & Planificación & Ajuste de los entregables. & 6 h & Alumno & X\% \\ \hline
+Sprint 1 & HU1 & Determinar y especificar componentes, parámetros físicos y sensores. & 6 h / 3 SP & Alumno & 0\% \\ \hline
+Sprint 1 & HU1 & Modelo 3D con sensores, actuadores y vínculos (URDF/USD). & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 2 & HU2 & Configurar una escena base en el simulador (mundo, gravedad, suelo). & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 2 & HU2 & Cargar y validar el robot bípedo en el simulador. & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 3 & HU3 & Implementar cálculo del ZMP a partir de fuerzas de contacto. & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 3 & HU3 & Implementar el generador de trayectorias de marcha basadas en ZMP. & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 4 & HU4 & Visualizar ZMP, polígono de soporte y centro de masa en tiempo real. & 7 h / 5 SP & Alumno & 0\% \\ \hline
 \end{tabularx}
 \end{table}
 
 
 \begin{table}[htpb]
 \centering
-\caption{Formato sugerido}
+% \caption{Formato sugerido}
 \begin{tabularx}{\linewidth}{@{}|l|l|X|c|l|c|@{}}
 \hline
 \rowcolor[HTML]{C0C0C0}
 Sprint & HU o fase & Tarea & SP & Responsable & \% Completado \\ \hline
 
 
-Sprint 4 & HU4 & Integrar visualización en la escena de simulación ya configurada & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 5 & HU5 & Entrenar la política inicial por imitación (behavior cloning) & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 5 & HU5 & Integrar la política entrenada en el simulador y validar marcha base & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 6 & HU6 & Configurar y ejecutar el algoritmo de RL elegido & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 6 & HU6 & Entrenar robustez a irregularidades y cambios de velocidad objetivo & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 7 & HU7 & Diseñar y registrar métricas (caídas, velocidad, energía/distancia) & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 7 & HU7 & Automatizar registro y almacenamiento de métricas y logs & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 8 & HU8 & Desarrollar notebooks para generación de gráficos y tablas & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 8 & HU8 & Integrar dashboards/notebooks en el flujo de experimentación & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 9 & Escritura & Redacción memoria & 50 h / 34 SP & Alumno & 0\% \\ \hline
-Sprint 10 & Defensa & Preparación de la exposición & 20 h / 13 SP & Alumno & 0\% \\ \hline
+Sprint 4 & HU4 & Integrar visualización en la escena de simulación ya configurada. & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 5 & HU5 & Entrenar la política inicial por imitación (behavior cloning). & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 5 & HU5 & Integrar la política entrenada en el simulador y validar marcha base. & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 6 & HU6 & Configurar y ejecutar el algoritmo de RL elegido. & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 6 & HU6 & Entrenar robustez a irregularidades y cambios de velocidad objetivo. & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 7 & HU7 & Diseñar y registrar métricas (caídas, velocidad, energía/distancia). & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 7 & HU7 & Automatizar registro y almacenamiento de métricas. y logs & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 8 & HU8 & Desarrollar notebooks para generación de gráficos y tablas. & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 8 & HU8 & Integrar dashboards/notebooks en el flujo de experimentación. & 10 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 9 & Escritura & Redacción memoria. & 50 h / 34 SP & Alumno & 0\% \\ \hline
+Sprint 10 & Defensa & Preparación de la exposición. & 20 h / 13 SP & Alumno & 0\% \\ \hline
 \end{tabularx}
 \end{table}
 
@@ -415,8 +416,8 @@ Sprint 10 & Defensa & Preparación de la exposición & 20 h / 13 SP & Alumno & 0
 \begin{figure}[htpb]
 \centering 
 \includegraphics[width=1\textwidth]{./Figuras/gantt.png}
-\caption{Diagrama en bloques del sistema.}
-\label{fig:diagBloques}
+\caption{Diagrama de Gantt.}
+%\label{fig:diagBloques}
 \end{figure}
 
 
@@ -432,21 +433,20 @@ Sprint 10 & Defensa & Preparación de la exposición & 20 h / 13 SP & Alumno & 0
 No se capturan ni procesan datos personales de individuos ni información sensible; todo el comportamiento del agente se entrena sobre entornos sintéticos. El único material que se prevé publicar de forma abierta son el código fuente y las políticas entrenadas, junto con scripts de evaluación y documentación del experimento. 
 
 
-
-12.1. Cumplimiento normativo
+\textbf{12.1. Cumplimiento normativo}
 
 
 
 El simulador y los entornos asociados (NVIDIA Isaac Sim e Isaac Lab) se utilizarán bajo sus licencias de desarrollador, exclusivamente con fines académicos y no productivos. No se redistribuirán escenas ni assets propietarios.
 
-Las librerías de aprendizaje automático como PyTorch, frameworks de RL y arquitecturas tipo ResNet-18 se emplearán bajo sus licencias open source (BSD-3, MIT, Apache-2.0). En el repositorio del proyecto se incluirá un apartado con licencias y avisos correspondientes.
+Las bibliotecas de aprendizaje automático como PyTorch, frameworks de RL y arquitecturas tipo ResNet-18 se emplearán bajo sus licencias open source (BSD-3, MIT, Apache-2.0). En el repositorio del proyecto se incluirá un apartado con licencias y avisos correspondientes.
 
 
 
-12.2. Ética en el uso de inteligencia artificial
+\textbf{12.2. Ética en el uso de inteligencia artificial}
 
 
-El objetivo del proyecto es mejorar la autonomía de robots caminantes para tareas de construcción, un ámbito donde una caída o comportamiento errático podría implicar riesgos para personas y bienes. Este trabajo se desarrolla exclusivamente en simulación, no se recomienda el uso de las políticas resultantes en plataformas físicas sin medidas de seguridad. Desde una perspectiva social, el proyecto busca automatizar tareas físicamente demandantes que son realizadas en entornos riesgosos. Al disminuir la exposición directa de los operarios a estas condiciones peligrosas, se contribuye significativamente a mejorar su seguridad. 
+El objetivo del proyecto es mejorar la autonomía de robots caminantes para tareas de construcción, un entorno en el que una caída o movimiento inapropiado podría implicar riesgos para personas y bienes. Este trabajo se desarrolla sólo en simulación: no se recomienda el uso de las políticas resultantes en robots físicos sin medidas de seguridad. Desde una perspectiva social, el proyecto busca automatizar tareas físicamente demandantes que son realizadas en entornos riesgosos. Al disminuir la exposición directa de los operarios a estas condiciones peligrosas, se contribuye significativamente a mejorar su seguridad. 
 
 
 \section{13. Gestión de riesgos}
@@ -667,16 +667,8 @@ Nueva asignación de S y O:
 \section{14. Sprint Review}
 \label{sec:sprint_review}
 
-La revisión de sprint (\emph{Sprint Review}) es una práctica fundamental en metodologías ágiles. Consiste en revisar y evaluar lo que se ha completado al finalizar un sprint. En esta instancia, se presentan los avances y se verifica si las funcionalidades cumplen con los criterios de aceptación establecidos. También se identifican entregables parciales y se consideran ajustes si es necesario.
 
-Aunque el proyecto aún se encuentre en etapa de planificación, esta sección permite proyectar cómo se evaluarán las funcionalidades más importantes del backlog. Esta mirada anticipada favorece la planificación enfocada en valor y permite reflexionar sobre posibles obstáculos.
-
-\textbf{Objetivo:} anticipar cómo se evaluará el avance del proyecto a medida que se desarrollen las funcionalidades, utilizando como base al menos cuatro historias de usuario del \emph{Product Backlog}.
-
-
-Seleccionar al menos 4 HU del Product Backlog. Para cada una, completar la siguiente tabla de revisión proyectada:
-
-\textbf{Formato sugerido:}
+% \textbf{Tabla de revisión:}
 \begin{table}[htpb]
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|>{\raggedright\arraybackslash}m{1.7cm}|
@@ -698,8 +690,8 @@ Seleccionar al menos 4 HU del Product Backlog. Para cada una, completar la sigui
                          & Entrenar la política inicial por imitación. &      Política de control de la marcha entrenada por imitación.                       &   El robot camina en el simulador con la nueva política.                                         &   Podría requerirse recopilar más demostraciones.                                  \\ \cline{2-2}
 \multirow{-2}{=}{HU5}    & Integrar la política entrenada en el simulador y validar marcha básica. & \multirow{-2}{=}{} & \multirow{-2}{=}{Se cumplen los criterios de aceptación de estabilidad básica.} & \multirow{-2}{=}{} \\
 \hline
-                         & Configurar y ejecutar el algoritmo de RL. &   Política de control robusta entrenada con RL.                          &    El agente mantiene la marcha ante perturbaciones y cambios de velocidad.                                       &     Entrenamiento lento o necesidad de reajustar hiperparámetros.                                \\ \cline{2-2}
-\multirow{-2}{=}{HU6}    & Entrenar robustez a irregularidades y cambios de velocidad objetivo. & \multirow{-2}{=}{} & \multirow{-2}{=}{} & \multirow{-2}{=}{} \\
+                         & Configurar y ejecutar el algoritmo de RL. Entrenar en suelo irregular &   Política de control robusta entrenada con RL.                          &    El agente mantiene la marcha ante perturbaciones y cambios de velocidad.                                       &     Entrenamiento lento o necesidad de reajustar hiperparámetros.                                \\ \cline{2-2}
+\multirow{-2}{=}{HU6}    &  y cambios de velocidad objetivo. & \multirow{-2}{=}{} & \multirow{-2}{=}{} & \multirow{-2}{=}{} \\
 \hline
 \end{tabular}
 \end{table}
