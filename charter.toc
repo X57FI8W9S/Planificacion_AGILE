@@ -7,11 +7,11 @@
 \contentsline {section}{\numberline {6}6. Product Backlog}{7}{section.6}%
 \contentsline {section}{\numberline {7}7. Criterios de aceptación de historias de usuario}{8}{section.7}%
 \contentsline {section}{\numberline {8}8. Fases de CRISP-DM}{9}{section.8}%
-\contentsline {section}{\numberline {9}9. Desglose del trabajo en tareas}{9}{section.9}%
-\contentsline {section}{\numberline {10}10. Planificación de Sprints}{11}{section.10}%
+\contentsline {section}{\numberline {9}9. Desglose del trabajo en tareas}{10}{section.9}%
+\contentsline {section}{\numberline {10}10. Planificación de Sprints}{10}{section.10}%
 \contentsline {section}{\numberline {11}11. Diagrama de Gantt (sprints)}{13}{section.11}%
 \contentsline {section}{\numberline {12}12. Gobernanza de datos}{15}{section.12}%
 \contentsline {section}{\numberline {13}13. Gestión de riesgos}{15}{section.13}%
-\contentsline {section}{\numberline {14}14. Sprint Review}{16}{section.14}%
-\contentsline {section}{\numberline {15}15. Sprint Retrospective}{17}{section.15}%
+\contentsline {section}{\numberline {14}14. Sprint Review}{19}{section.14}%
+\contentsline {section}{\numberline {15}15. Sprint Retrospective}{21}{section.15}%
 \contentsfinish 
