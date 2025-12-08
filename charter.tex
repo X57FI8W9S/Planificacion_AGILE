@@ -19,14 +19,14 @@
 \autor{Ing. Francisco Antonio Cofré Villalón}
 
 % El nombre del director y co-director, se puede usar el cualquier lugar del documento con el comando \supname y \cosupname y \pertesupname y \pertecosupname
-\director{Título y Nombre del director}
-\pertenenciaDirector{pertenencia} 
+\director{Esp. Ing. Miguel Augusto Azar}
+\pertenenciaDirector{FIUBA} 
 \codirector{} % para que aparezca en la portada se debe descomentar la opción codirector en los parámetros de documentclass
 \pertenenciaCoDirector{FIUBA}
 
 % Nombre del cliente, quien va a aprobar los resultados del proyecto, se puede usar con el comando \clientename y \empclientename
-\cliente{Nombre del cliente}
-\empresaCliente{Empresa del cliente}
+\cliente{Carolina Herrera}
+\empresaCliente{}
  
 \fechaINICIO{21 de octubre de 2025}		%Fecha de inicio de la cursada de GdP \fechaInicioName
 \fechaFINALPlan{9 de diciembre de 2025} 	%Fecha de final de cursada de GdP
@@ -66,6 +66,7 @@ Revisión & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}Detalles de los cambios 
 		                                                      & {12} de {noviembre} de 2025 \\ \hline
 3      & Se completa hasta el punto 12 inclusive                & {23} de {noviembre} de 2025 \\ \hline
 4      & Se completa el plan	                                 & {30} de {noviembre} de 2025 \\ \hline
+5      & Correcciones	                                 & {8} de {diciembre} de 2025 \\ \hline
 
 % Si hay más correcciones pasada la versión 4 también se deben especificar acá
 
@@ -85,7 +86,7 @@ Buenos Aires, \fechaInicioName
 
 \vspace{2cm}
 
-Por medio de la presente se acuerda con el \authorname\hspace{1px} que su Trabajo Final de la \degreename\hspace{1px} se titulará ``\ttitle'' y consistirá en la simulación de un robot caminante y el entrenamiento de las políticas de control de su marcha aplicando aprendizaje por refuerzo. El trabajo tendrá un presupuesto preliminar estimado de \textcolor{red}{600} horas y un costo estimado de \textcolor{red}{\$ XXX}, con fecha de inicio el \fechaInicioName\hspace{1px} y fecha de presentación pública en \textcolor{red}{\fechaFinalName}.
+Por medio de la presente se acuerda con el \authorname\hspace{1px} que su Trabajo Final de la \degreename\hspace{1px} se titulará ``\ttitle'' y consistirá en la simulación de un robot caminante y el entrenamiento de las políticas de control de su marcha aplicando aprendizaje por refuerzo. El trabajo tendrá un presupuesto preliminar estimado de 600 horas y un costo estimado de \$ 5.500.000, con fecha de inicio el \fechaInicioName\hspace{1px} y fecha de presentación pública en \fechaFinalName.
 
 Se adjunta a esta acta la planificación inicial.
 
@@ -147,7 +148,7 @@ Como se observa en la figura \ref{fig:diagBloques}, no se utiliza ZMP como contr
 \hline
 \rowcolor[HTML]{C0C0C0} 
 Rol           & Nombre y Apellido                                                               & Organización                   & Puesto                     \\ \hline
-Cliente       & \clientename                                                     & \empclientename & -                          \\ \hline
+Cliente       & \clientename                                                     &    - &    -                          \\ \hline
 Responsable   & \begin{tabular}[c]{@{}l@{}}Ing. Francisco Antonio\\ Cofré Villalón\end{tabular} & FIUBA                          & Alumno                     \\ \hline
 
 Orientador    & \supname                                                         & \pertesupname   & Director del Trabajo Final \\ \hline
@@ -156,6 +157,10 @@ Orientador    & \supname                                                        
 
 \end{tabular}
 \end{table}
+
+El cliente corresponde a una PyME familiar del sector de la construcción, actualmente en proceso de formalización legal. La representante indicada en la tabla actúa en nombre de este emprendimiento. La motivación principal para esta solución es reducir los costos de mano de obra, reducir tareas repetitivas y disminuir la exposición a accidentes asociados a trabajos en altura y a la caída de objetos.
+
+
 
 \section{3. Propósito del proyecto}
 \label{sec:proposito}
@@ -237,32 +242,31 @@ Cada dimensión se puntúa en una escala de uno a diez, se suman y luego se redo
 \begin{itemize}
   \item \textbf{\'{E}pica 1: Modelo 3D y entorno de simulación}
     \begin{itemize}
-      \item HU1: Como responsable de simulación, quiero un modelo 3D del robot bípedo para poder ajustar dimensiones, masas, calcular trayectorias y entrenar agentes.
-      \item D: 3, C: 3, I: 3, SP: 13.
-      \item HU2: Como responsable de simulación, quiero un entorno de simulación para calcular trayectorias y entrenar agentes.
-      \item D: 3, C: 3, I: 3, SP: 13.
+      \item HU1: Como responsable de simulación, quiero un modelo 3D del robot bípedo para poder ajustar dimensiones, masas, calcular trayectorias y entrenar agentes.\\
+       D: 20, C: 6, I: 4, SP: 34.
+      \item HU2: Como responsable de simulación, quiero un entorno de simulación para calcular trayectorias y entrenar agentes.\\
+       D: 12, C: 4, I: 4, SP: 21.
     \end{itemize}
   \item \textbf{\'{E}pica 2: Generación de trayectorias expertas con ZMP}
     \begin{itemize}
-      \item HU3: Como responsable de control, quiero que el sistema genere trayectorias de marcha estables usando ZMP para poder utilizarlas como demostraciones expertas en el entrenamiento por imitación.
-      \item D: 3, C: 3, I: 3, SP: 13.
-      \item HU4: Como responsable de control, quiero poder ver indicados el ZMP, el centro de masa y los contactos con el suelo durante la marcha para confirmar que las trayectorias cumplen las condiciones de estabilidad.
-      \item D: 3, C: 3, I: 3, SP: 13.
+      \item HU3: Como responsable de control, quiero que el sistema genere trayectorias de marcha estables usando ZMP para poder utilizarlas como demostraciones expertas en el entrenamiento por imitación.\\
+       D: 15, C: 5, I: 4, SP: 34.
+      \item HU4: Como responsable de control, quiero poder ver indicados el ZMP, el centro de masa y los contactos con el suelo durante la marcha para confirmar que las trayectorias cumplen las condiciones de estabilidad.\\
+       D: 12, C: 5, I: 4, SP: 34.
     \end{itemize}
   \item \textbf{\'{E}pica 3: Entrenamiento por imitación y RL de la marcha bípeda}
     \begin{itemize}
-      \item HU5: Como responsable de ML, quiero entrenar una política inicial a partir de las demostraciones generadas con ZMP para obtener un caminante estable en pocas iteraciones.
-      \item D: 3, C: 3, I: 3, SP: 13.
-      \item HU6: Como responsable de ML, quiero mejorar la rapidez, definida como la distancia recorrida en simulación dividida por el tiempo transcurrido en simulación, y la estabilidad frente a perturbaciones, definida como la razón entre caídas causadas por perturbaciones y el número total de perturbaciones aplicadas, utilizando RL.
-      
-      \item D: 3, C: 3, I: 3, SP: 13.
+      \item HU5: Como responsable de ML, quiero entrenar una política inicial a partir de las demostraciones generadas con ZMP para obtener un caminante estable en pocas iteraciones.\\
+       D: 20, C: 6, I: 6, SP: 34.
+      \item HU6: Como responsable de ML, quiero mejorar la rapidez, definida como la distancia recorrida en simulación dividida por el tiempo transcurrido en simulación, y la estabilidad frente a perturbaciones, definida como la razón entre caídas causadas por perturbaciones y el número total de perturbaciones aplicadas, utilizando RL.\\      
+       D: 20, C: 5, I: 6, SP: 34.
     \end{itemize}
   \item \textbf{\'{E}pica 4: Experimentación y análisis de resultados}
     \begin{itemize}
-      \item HU7: Como responsable de ML, quiero evaluar el progreso de la política para medir la mejora del agente durante el entrenamiento.
-      \item D: 3, C: 3, I: 3, SP: 13.
-      \item HU8: Como responsable de ML, quiero ver gráficos que resuman la estabilidad, rapidez y que comparen ZMP e IL+RL.
-      \item D: 3, C: 3, I: 3, SP: 13.
+      \item HU7: Como responsable de ML, quiero evaluar el progreso de la política para medir la mejora del agente durante el entrenamiento.\\
+       D: 10, C: 5, I: 3, SP: 21.
+      \item HU8: Como responsable de ML, quiero ver gráficos que resuman la estabilidad, rapidez y que comparen ZMP e IL+RL.\\
+      D: 10, C: 4, I: 2, SP: 21.
     \end{itemize}
 \end{itemize}
 
@@ -337,21 +341,21 @@ De acuerdo con la metodología CRISP-DM, el desarrollo del proyecto se organizar
 \rowcolor[HTML]{C0C0C0} %una semana para buscar info
 Historia de usuario & Tarea técnica & Estimación & Prioridad \\ \hline
 HU1 & Determinar y especificar componentes. & 6 h & Alta \\ \hline
-HU1 & Modelo 3D sensores actuadores vínculos (URDF/USD). & 8 h & Alta \\ \hline
+HU1 & Modelo 3D sensores actuadores vínculos (URDF/USD). & 6 h & Alta \\ \hline
 HU2 & Configurar una escena base en simulador. & 5 h & Media \\ \hline
-HU2 & Cargar y validar robot en simulador. & 6 h & Alta \\ \hline
-HU3 & Calcular ZMP.  & 6 h & Alta \\ \hline
+HU2 & Cargar y validar robot en simulador. & 4 h & Alta \\ \hline
+HU3 & Calcular ZMP.  & 8 h & Alta \\ \hline
 HU3 & Implementar el generador de trayectorias. & 8 h & Alta \\ \hline
-HU4 & Mostrar ZMP, centro de masa y sus trayectorias en la simulación. & 5 h & Media \\ \hline
-HU4 & Mostrar polígono de apoyo en la simulación. & 6 h & Alta \\ \hline
-HU5 & Entrenar la política por imitación con el dataset de demostraciones. & 6 h & Alta \\ \hline
+HU4 & Mostrar ZMP, centro de masa y sus trayectorias en la simulación. & 8 h & Media \\ \hline
+HU4 & Mostrar polígono de apoyo en la simulación. & 8 h & Media \\ \hline
+HU5 & Entrenar la política por imitación con el dataset de demostraciones. & 8 h & Alta \\ \hline
 HU5 & Integrar la política entrenada en el simulador. & 8 h & Alta \\ \hline
-HU6 & Configurar y ejecutar el algoritmo de RL elegido. & 5 h & Media \\ \hline
-HU6 & Irregularidades, cambios de velocidad objetivo. & 6 h & Alta \\ \hline
+HU6 & Configurar y ejecutar el algoritmo de RL elegido. & 8 h & Alta \\ \hline
+HU6 & Irregularidades, cambios de velocidad objetivo. & 8 h & Alta \\ \hline
 HU7 & Registrar evolución de métricas.  & 6 h & Alta \\ \hline
-HU7 & Automatizar registro y almacenamiento de métricas y logs. & 8 h & Alta \\ \hline
+HU7 & Automatizar registro y almacenamiento de métricas y logs. & 6 h & Media \\ \hline
 HU8 & Definir escenarios, perturbaciones, métricas y formato de registros y videos. & 5 h & Media \\ \hline
-HU8 & Implementar notebooks generen gráficos de estabilidad y rapidez, y que comparen ZMP e IL+RL. & 6 h & Alta \\ \hline
+HU8 & Implementar notebooks que generen gráficos de estabilidad y rapidez, y que comparen ZMP e IL+RL. & 8 h & Alta \\ \hline
 \end{tabularx}
 \end{table}
 
@@ -368,16 +372,16 @@ HU8 & Implementar notebooks generen gráficos de estabilidad y rapidez, y que co
 \hline
 \rowcolor[HTML]{C0C0C0}
 Sprint & HU o fase & Tarea & SP & Responsable & \% Completado \\ \hline
-Sprint 0 & Planificación & Definir alcance y cronograma. & 10 h & Alumno & X\% \\ \hline
-Sprint 0 & Planificación & Reunión con el tutor/cliente. & 5 h & Alumno & X\% \\ \hline
-Sprint 0 & Planificación & Ajuste de los entregables. & 6 h & Alumno & X\% \\ \hline
-Sprint 1 & HU1 & Determinar y especificar componentes, parámetros físicos y sensores. & 6 h / 3 SP & Alumno & 0\% \\ \hline
-Sprint 1 & HU1 & Modelo 3D con sensores, actuadores y vínculos (URDF/USD). & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 2 & HU2 & Configurar una escena base en el simulador (mundo, gravedad, suelo). & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 2 & HU2 & Cargar y validar el robot bípedo en el simulador. & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 3 & HU3 & Implementar cálculo del ZMP a partir de fuerzas de contacto. & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 3 & HU3 & Implementar el generador de trayectorias de marcha basadas en ZMP. & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 4 & HU4 & Visualizar ZMP, polígono de soporte y centro de masa en tiempo real. & 7 h / 5 SP & Alumno & 0\% \\ \hline
+Sprint 0 & Planificación & Definir alcance y cronograma. & 5 SP & Alumno & X\% \\ \hline
+Sprint 0 & Planificación & Reunión con el tutor/cliente. & 2 SP & Alumno & X\% \\ \hline
+Sprint 0 & Planificación & Ajuste de los entregables. & 3 SP & Alumno & X\% \\ \hline
+Sprint 1 & HU1 & Determinar y especificar componentes, parámetros físicos y sensores. & 21 SP & Alumno & 0\% \\ \hline
+Sprint 1 & HU1 & Modelo 3D con sensores, actuadores y vínculos (URDF/USD). & 21 SP & Alumno & 0\% \\ \hline
+Sprint 2 & HU2 & Configurar una escena base en el simulador (mundo, gravedad, suelo). & 13 SP & Alumno & 0\% \\ \hline
+Sprint 2 & HU2 & Cargar y validar el robot bípedo en el simulador. & 13 SP & Alumno & 0\% \\ \hline
+Sprint 3 & HU3 & Implementar cálculo del ZMP a partir de fuerzas de contacto. & 21 SP & Alumno & 0\% \\ \hline
+Sprint 3 & HU3 & Implementar el generador de trayectorias de marcha basadas en ZMP. & 21 SP & Alumno & 0\% \\ \hline
+Sprint 4 & HU4 & Visualizar ZMP, polígono de soporte y centro de masa en tiempo real. & 21 SP & Alumno & 0\% \\ \hline
 \end{tabularx}
 \end{table}
 
@@ -391,17 +395,17 @@ Sprint 4 & HU4 & Visualizar ZMP, polígono de soporte y centro de masa en tiempo
 Sprint & HU o fase & Tarea & SP & Responsable & \% Completado \\ \hline
 
 
-Sprint 4 & HU4 & Integrar visualización en la escena de simulación ya configurada. & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 5 & HU5 & Entrenar la política inicial por imitación (behavior cloning). & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 5 & HU5 & Integrar la política entrenada en el simulador y validar marcha base. & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 6 & HU6 & Configurar y ejecutar el algoritmo de RL elegido. & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 6 & HU6 & Entrenar robustez a irregularidades y cambios de velocidad objetivo. & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 7 & HU7 & Diseñar y registrar métricas (caídas, velocidad, energía/distancia). & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 7 & HU7 & Automatizar registro y almacenamiento de métricas. y logs & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 8 & HU8 & Desarrollar notebooks para generación de gráficos y tablas. & 7 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 8 & HU8 & Integrar dashboards/notebooks en el flujo de experimentación. & 10 h / 5 SP & Alumno & 0\% \\ \hline
-Sprint 9 & Escritura & Redacción memoria. & 50 h / 34 SP & Alumno & 0\% \\ \hline
-Sprint 10 & Defensa & Preparación de la exposición. & 20 h / 13 SP & Alumno & 0\% \\ \hline
+Sprint 4 & HU4 & Integrar visualización en la escena de simulación ya configurada. & 13 SP & Alumno & 0\% \\ \hline
+Sprint 5 & HU5 & Entrenar la política inicial por imitación (behavior cloning). & 21 SP & Alumno & 0\% \\ \hline
+Sprint 5 & HU5 & Integrar la política entrenada en el simulador y validar marcha base. & 21 SP & Alumno & 0\% \\ \hline
+Sprint 6 & HU6 & Configurar y ejecutar el algoritmo de RL elegido. & 21 SP & Alumno & 0\% \\ \hline
+Sprint 6 & HU6 & Entrenar robustez a irregularidades y cambios de velocidad objetivo. & 21 SP & Alumno & 0\% \\ \hline
+Sprint 7 & HU7 & Diseñar y registrar métricas (caídas, velocidad, energía/distancia). & 13 SP & Alumno & 0\% \\ \hline
+Sprint 7 & HU7 & Automatizar registro y almacenamiento de métricas. y logs & 13 SP & Alumno & 0\% \\ \hline
+Sprint 8 & HU8 & Desarrollar notebooks para generación de gráficos y tablas. & 13 SP & Alumno & 0\% \\ \hline
+Sprint 8 & HU8 & Integrar dashboards/notebooks en el flujo de experimentación. & 13 SP & Alumno & 0\% \\ \hline
+Sprint 9 & Escritura & Redacción memoria. & 34 SP & Alumno & 0\% \\ \hline
+Sprint 10 & Defensa & Preparación de la exposición. & 13 SP & Alumno & 0\% \\ \hline
 \end{tabularx}
 \end{table}
 
@@ -409,13 +413,9 @@ Sprint 10 & Defensa & Preparación de la exposición. & 20 h / 13 SP & Alumno & 
 
 \section{11. Diagrama de Gantt (sprints)}
 \label{sec:gantt}
-
-
-
-
 \begin{figure}[htpb]
 \centering 
-\includegraphics[width=1\textwidth]{./Figuras/gantt.png}
+\includegraphics[width=1\textwidth]{./Figuras/gantt2.png}
 \caption{Diagrama de Gantt.}
 %\label{fig:diagBloques}
 \end{figure}
@@ -431,7 +431,7 @@ Sprint 10 & Defensa & Preparación de la exposición. & 20 h / 13 SP & Alumno & 
 
 
 No se capturan ni procesan datos personales de individuos ni información sensible; todo el comportamiento del agente se entrena sobre entornos sintéticos. El único material que se prevé publicar de forma abierta son el código fuente y las políticas entrenadas, junto con scripts de evaluación y documentación del experimento. 
-
+\\\\
 
 \textbf{12.1. Cumplimiento normativo}
 
@@ -464,20 +464,14 @@ Riesgo 1: El robot bípedo no logra una marcha estable a pesar de las trayectori
 
 \begin{itemize}
 
-	\item Severidad (S): 9. Si el robot no consigue caminar establemente, el propósito central del proyecto no se alcanzaría, por lo que el impacto sobre el proyecto es muy alto. .\\
+	\item Severidad (S): 9. Si el robot no consigue caminar establemente, el propósito central del proyecto no se alcanzaría, por lo que el impacto sobre el proyecto es muy alto.\\
 	
 	\item Probabilidad de ocurrencia (O): 5. Existe una probabilidad moderada, dado que la generación de
 trayectorias con ZMP es compleja y podrían surgir factores imprevistos (como limitaciones del modelo o simplificaciones en la simulación) que dificulten la estabilidad.
 
 \end{itemize}
 
-
-
-
-
-
- 
-Riesgo 2: El entrenamiento por Reinforcement Learning (RL) no converge o no mejora sustancialmente el andar obtenido por imitación, causando retrasos o resultados inferiores a lo
+Riesgo 2: El entrenamiento por Reinforcement Learning (RL) no converge o no mejora sustancialmente el andar obtenido por imitación, y causa retrasos o resultados inferiores a lo
 esperado.
 
 
@@ -487,14 +481,9 @@ esperado.
 aunque el robot haya aprendido a caminar por imitación (el impacto es serio pero podría subsistir
 un resultado parcial).\\
 
-	\item Probabilidad de ocurrencia (O): 6. Es relativamente probable; los algoritmos de RL pueden requerir
-muchos episodios y ajustes de hiperparámetros. Dado el tiempo limitado del proyecto y la
-naturaleza estocástica del RL, existe riesgo de que la mejora sea más lenta de lo previsto.\\
-
+	\item Probabilidad de ocurrencia (O): 6. Es relativamente probable; los algoritmos de RL pueden requerir muchos episodios y ajustes de hiperparámetros. Dado el tiempo limitado del proyecto y la naturaleza estocástica del RL, existe riesgo de que la mejora sea más lenta de lo previsto.\\
 	
 \end{itemize}
-
-
  
 Riesgo 3: Dificultades de integración entre los distintos módulos del proyecto (modelo 3D, cálculo de
 ZMP, simulador, algoritmo de RL), provocando retrasos en el desarrollo.
@@ -505,20 +494,13 @@ ZMP, simulador, algoritmo de RL), provocando retrasos en el desarrollo.
 	
 	\item Probabilidad de ocurrencia (O): 7. Es bastante probable; integrar componentes de simulación,
 control e IA se asocia a problemas como incompatibilidad de formatos y errores de comunicación entre herramientas.\\
-	
-	
+		
 \end{itemize}
-
-
-
- 
-Riesgo 4: Limitaciones de rendimiento o recursos de cómputo durante las simulaciones y entrenamientos, que impliquen tiempos de ejecución elevados o la necesidad de reducir el alcance del entrenamiento.
+Riesgo 4: Limitaciones de rendimiento o recursos de cómputo durante las simulaciones y entrenamientos que impliquen tiempos de ejecución elevados o la necesidad de reducir el alcance del entrenamiento.
 
 \begin{itemize}
 
-	\item Severidad (S): 7. Si las simulaciones o entrenamientos toman demasiado tiempo, podría reducirse la
-cantidad de experimentos y ajustes posibles, impactando la calidad de los resultados y la capacidad
-de iteración.\\
+	\item Severidad (S): 7. Si las simulaciones o entrenamientos toman demasiado tiempo, podría reducirse la cantidad de experimentos y ajustes posibles, lo que impactría la calidad de los resultados y la capacidad de iteración.\\
 	
 	\item Probabilidad de ocurrencia (O): 6. Es probable en caso de usar entornos de simulación pesados o algoritmos complejos. Si no se puede usar la GPU local o no es suficiente ni se logra optimizar el proceso, el entrenamiento
 podría volverse lento.\\
@@ -558,7 +540,7 @@ Que no se logre un andar estable a pesar de las trayectorias generadas con ZMP. 
 Que RL no mejore sustancialmente el andar obtenido por IL. & 8  & 6  &  48   &  6  & 4   &   24   \\ \hline
 Dificultades de integración entre los distintos módulos del proyecto. & 6  &  7 &  42   &  6  &  3  &   18   \\ \hline
 Insuficiente capacidad de cómputo durante las simulaciones y entrenamientos. &  7 & 6  &   42  &  7  &  4  &   28                                                                   \\ \hline
-Insuficientes datos de demostración generados con ZMP para el entrenamiento por imitación. &  5 &  4 &  20   &    &    &      \\ \hline
+Insuficientes datos de demostración generados con ZMP para el entrenamiento por imitación. &  5 &  4 &  20   &   - &  -  &   -   \\ \hline
 \end{tabularx}%
 \end{table}
 
@@ -578,8 +560,8 @@ c) Plan de mitigación de los riesgos que originalmente excedían el RPN máximo
 Riesgo 1: El agente no logra una marcha estable a pesar de las trayectorias generadas con ZMP.
 
   \begin{itemize}
-	\item primero validar que el robot se mantenga de pie.
-	\item simplificación del entorno inicial.
+	\item Verificar que el robot se mantenga de pie.
+	\item Simplificación del entorno inicial.
 	\item Ajustar parámetros físicos del modelo según sea necesario y mantener consultas periódicas con el director para validar enfoques.
 \end{itemize}
 
@@ -684,26 +666,24 @@ Nueva asignación de S y O:
                           &   Problemas de integración.                                  \\ \cline{2-2}
 \multirow{-2}{=}{HU1}    & Modelo 3D con sensores, actuadores y vínculos. & \multirow{-2}{=}{} & \multirow{-2}{=}{Se comprueba que puede mantenerse en pie.} & \multirow{-2}{=}{} \\
 \hline
-                         & Implementar cálculo del ZMP a partir de fuerzas de contacto. &  Dataset sintético de trayectorias de marcha sin caídas.                           &             La herramienta genera N pasos de marcha sin que el robot caiga.                               &  Problemas en ajuste de parámetros                                   \\ \cline{2-2}
+                         & Implementar cálculo del ZMP a partir de fuerzas de contacto. &  Dataset sintético de trayectorias de marcha sin caídas.                           &             La herramienta genera N pasos de marcha sin que el robot caiga.                               &  Problemas en ajuste de parámetros.                                   \\ \cline{2-2}
 \multirow{-2}{=}{HU3}    & Implementar el generador de trayectorias de marcha basadas en ZMP. & \multirow{-2}{=}{} & \multirow{-2}{=}{} & \multirow{-2}{=}{} \\
 \hline
                          & Entrenar la política inicial por imitación. &      Política de control de la marcha entrenada por imitación.                       &   El robot camina en el simulador con la nueva política.                                         &   Podría requerirse recopilar más demostraciones.                                  \\ \cline{2-2}
 \multirow{-2}{=}{HU5}    & Integrar la política entrenada en el simulador y validar marcha básica. & \multirow{-2}{=}{} & \multirow{-2}{=}{Se cumplen los criterios de aceptación de estabilidad básica.} & \multirow{-2}{=}{} \\
 \hline
-                         & Configurar y ejecutar el algoritmo de RL. Entrenar en suelo irregular &   Política de control robusta entrenada con RL.                          &    El agente mantiene la marcha ante perturbaciones y cambios de velocidad.                                       &     Entrenamiento lento o necesidad de reajustar hiperparámetros.                                \\ \cline{2-2}
-\multirow{-2}{=}{HU6}    &  y cambios de velocidad objetivo. & \multirow{-2}{=}{} & \multirow{-2}{=}{} & \multirow{-2}{=}{} \\
+                         & Entrenar en suelo irregular y con cambios de velocidad objetivo. &   Política de control robusta entrenada con RL.                          &    El agente mantiene la marcha ante perturbaciones y cambios de velocidad.                                       &     Entrenamiento lento o necesidad de reajustar hiperparámetros.                                \\ \cline{2-2}
+\multirow{-2}{=}{HU6}    &  Configurar y ejecutar el algoritmo de RL. & \multirow{-2}{=}{} & \multirow{-2}{=}{} & \multirow{-2}{=}{} \\
 \hline
 \end{tabular}
 \end{table}
 
 \section{15. Sprint Retrospective}    
-\label{sec:sprint_retro}
+\label{sec:sprint_retro} \begin{table}[htpb]
 
-En la siguiente tabla se sintetiza una primera aplicación de la Estrella de la Retrospectiva al proyecto. Para cada tipo de sprint se plantean prácticas a reforzar, hábitos a reducir, aspectos que conviene mantener y acciones nuevas a incorporar o abandonar. Esta esquematización ayuda a proponer ajustes concretos que faciliten el desarrollo del proyecto.
+%En la siguiente tabla se sintetiza una primera aplicación de la Estrella de la Retrospectiva al proyecto. Para cada tipo de sprint se plantean prácticas a reforzar, hábitos a reducir, aspectos que conviene mantener y acciones nuevas a incorporar o abandonar. Esta esquematización ayuda a proponer ajustes concretos que faciliten el desarrollo del proyecto.
 
-
-\begin{table}[htpb]
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.2}
 \begin{tabularx}{\linewidth}{@{}|X|X|X|X|X|X|@{}}
 \hline
 \rowcolor[HTML]{C0C0C0}
@@ -711,10 +691,10 @@ En la siguiente tabla se sintetiza una primera aplicación de la Estrella de la 
 \textbf{¿Qué hacer más?} &
 \textbf{¿Qué hacer menos?} &
 \textbf{¿Qué mantener?} &
-\textbf{¿Qué empezar a hacer?} &
+\textbf{¿Qué empezar?} &
 \textbf{¿Qué dejar de hacer?} \\
 \hline
-Sprint técnico 1
+Sprint técnico 1 -
 Modelo 3D y entorno &
 Bloques de trabajo concentrado para avanzar en el modelo 3D y la configuración básica del simulador. &
 Interrumpir el trabajo para probar herramientas nuevas que no son críticas para este sprint. &
@@ -722,7 +702,7 @@ Probar el modelo en escenas simples para validar colisiones y contactos antes de
 Registrar en un log sencillo las decisiones de diseño y los problemas encontrados en cada sesión. &
 Empezar tareas técnicas sin revisar antes el backlog y los criterios de aceptación asociados. \\
 \hline
-Sprint técnico 3
+Sprint técnico 3 -
 ZMP y trayectorias &
 Ejecutar pruebas del cálculo de ZMP en patrón de marcha básico alternativo. &
 Ajustar parámetros de forma improvisada sin comparar con resultados anteriores. &
@@ -730,7 +710,7 @@ Comparar las trayectorias obtenidas con el criterio teórico de estabilidad. &
 Versionar scripts de prueba y gráficos en el repositorio para poder replicar experimentos. &
 Modificar código directamente en el simulador sin guardar una versión previa. \\
 \hline
-Sprint técnico 6
+Sprint técnico 6 -
 Entrenamiento con RL &
 Monitorear métricas de recompensa, caídas, energía en corridas largas de entrenamiento. &
 Lanzar experimentos grandes sin pruebas preliminares en entornos reducidos. &
@@ -738,27 +718,14 @@ Usar semillas fijas y configuraciones documentadas para poder reproducir resulta
 Planificar lotes pequeños de experimentos, cada uno con una hipótesis clara sobre el cambio a evaluar. &
 Cambiar muchos hiperparámetros a la vez sin anotar qué se modificó ni qué se espera observar. \\
 \hline
-Sprint no técnico 9
+Sprint no técnico 9 -
 Defensa &
 Escribir breves resúmenes al cerrar cada bloque de trabajo técnico para facilitar la redacción. &
 Dejar la escritura de secciones completas para los últimos días del sprint. &
 Revisar la guía de formato antes de redactar apartados. &
-Pedir feedback puntual sobre objetivos, resultados, conclusiones a una persona externa. &
+Pedir feedback puntual sobre objetivos, resultados y conclusiones a una persona externa. &
 Acumular correcciones en notas sueltas sin integrarlas periódicamente al documento principal. \\
 \hline
 \end{tabularx}
 \end{table}
-
-
-
-
-
-
-
-
-
-
-
-
-
 \end{document}
